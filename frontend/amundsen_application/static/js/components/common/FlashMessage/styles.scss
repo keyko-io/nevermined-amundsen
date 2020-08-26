@@ -1,0 +1,23 @@
+// Copyright Contributors to the Amundsen project.
+// SPDX-License-Identifier: Apache-2.0
+
+@import 'variables';
+
+.flash-message {
+  background-color: $body-bg-dark;
+  border-radius: 6px;
+  color: $white;
+  display: flex;
+  height: 56px;
+  padding: $spacer-2 $spacer-1;
+
+  .message {
+    line-height: 24px;
+    margin-right: $spacer-2;
+  }
+
+  .icon,
+  .btn-close {
+    margin: auto $spacer-1;
+  }
+}
